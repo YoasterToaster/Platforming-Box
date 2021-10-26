@@ -1,2 +1,2 @@
 # Platforming-Box
-This project is a simple platforming game. As you clear the level the obstacles get harder and harder to jump over.
+This project is a simple platforming game. As you clear the level the obstacles get harder and harder to jump over.  It took me a couple days to make this, the biggest issue I had was finding the right formula for object collision.  The object collision still is not perfect, it's more broken up into a couple separate functions when it can maybe be optimized into a single function.  All in all it was a fun little project
