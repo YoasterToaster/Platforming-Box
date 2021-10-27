@@ -92,25 +92,6 @@ $(function() {
                 $('input[type=submit]').css('visibility', 'visible');
                 gameOver = true;
 
-
-                score.sort();
-                score.reverse();
-
-
-                // bad attempt at an algorithm for keeping score
-                // for (i = 0; i < score.length; i++) {
-                //     if (level > score[i]) {
-                //         for (j = i; j < score.length; i++) {
-                //             if ((j + 1) < score.length) {
-                //                 score[i + 1] = score[i];
-                //             }
-                //         }
-                //         score[i] = level;
-
-                //         break;
-                //     }
-                // }
-
                 for (i = 0; i < score.length; i++) {
                     console.log(score[i]);
                 }
